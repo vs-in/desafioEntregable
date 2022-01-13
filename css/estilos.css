@@ -75,7 +75,7 @@ header li a:hover {
 }
 
 .contenido {
-    background-image: url(/img/ivan-lopatin-yJEvZGhsSLY-unsplash.jpg);
+    background-image: url("/img/ivan-lopatin-yJEvZGhsSLY-unsplash.jpg");
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
