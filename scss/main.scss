@@ -1,0 +1,19 @@
+// variables //
+// las variables se importan ssiempre arriba de todo//
+@import "./variables/colores";
+// importando las fuentes de google font //
+@import "./variables/fuentes";
+
+
+
+
+
+// importaciones / particiones //
+// todo archivo que no sea el main, se llama con  _adelante y la extension scss //
+
+@import "./utilidades/header";
+@import "./secciones/index";
+
+
+
+

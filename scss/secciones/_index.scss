@@ -1,0 +1,17 @@
+p {
+    color: rgb(34, 37, 37);
+    font-family: $sans-serif;
+}
+
+
+.contenedor {
+    background-color: $verde;
+
+    .titulo {
+        color: $color-primario;
+    }
+
+    &:hover {
+        background-color: blueviolet;
+    }
+}
