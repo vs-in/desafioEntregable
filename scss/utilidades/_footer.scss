@@ -3,23 +3,30 @@
     padding: 10px;
     display: flex;
     justify-content: center;
+
     .parrafoPie {
         color: $blanco;
         font-family: $fuente;
         text-decoration: none;
         list-style: none;
     }
-    
-    
+
+    footer {
+        p {
+            &:hover {
+                background-color: $fondo2;
+                color: $blanco;
+                padding: 5px;
+                transition: 3s;
+                border-radius: 50px;
+                list-style: none;
+
+            }
+        }
+    }
+
+
 }
 
 
 
-footer p a:hover {
-    background-color: $fondo2;
-    color: $blanco;
-    padding: 5px;
-    transition: 3s;
-    border-radius: 50px;
-    list-style: none;
-}

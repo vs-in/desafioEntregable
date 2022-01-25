@@ -14,14 +14,12 @@ header {
     justify-content: flex-end; }
   header nav ul li {
     margin: 27px; }
-
-/* Animacion Barra Navegacion */
-header li a:hover {
-  background-color: #4d504c;
-  color: #fcfcfc;
-  padding: 5px;
-  transition: 1s;
-  border-radius: 10px; }
+  header li a:hover {
+    background-color: #4d504c;
+    color: #fcfcfc;
+    padding: 5px;
+    transition: 1s;
+    border-radius: 10px; }
 
 /* Reseteo */
 * {
@@ -104,11 +102,10 @@ header li a:hover {
     font-family: "Spartan", "Roboto", sans-serif;
     text-decoration: none;
     list-style: none; }
-
-footer p a:hover {
-  background-color: rgba(162, 177, 169, 0.5);
-  color: #fcfcfc;
-  padding: 5px;
-  transition: 3s;
-  border-radius: 50px;
-  list-style: none; }
+  .pie1 footer p:hover {
+    background-color: rgba(162, 177, 169, 0.5);
+    color: #fcfcfc;
+    padding: 5px;
+    transition: 3s;
+    border-radius: 50px;
+    list-style: none; }

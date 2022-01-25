@@ -8,26 +8,42 @@ header {
         text-decoration: none;
         color: $blanco;
         font-size: 20px;
-        font-family:  $fuente;
+        font-family: $fuente;
     }
 
-    nav ul {
-        display: flex;
-        list-style: none;
-        justify-content: flex-end;
+    nav {
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: flex-end;
+
+        }
+
     }
 
-    nav ul li { 
-        margin: 27px;
+    nav {
+        ul {
+            li {
+
+                margin: 27px;
+
+            }
+        }
     }
 
-}
+    //Animacion de nav//
 
-/* Animacion Barra Navegacion */
-header li a:hover {
-    background-color: $hover;
-    color: $blanco;
-    padding: 5px;
-    transition: 1s;
-    border-radius: 10px;
+    li {
+        a {
+            &:hover {
+                background-color: $hover;
+                color: $blanco;
+                padding: 5px;
+                transition: 1s;
+                border-radius: 10px;
+
+            }
+        }
+    }
+
 }
