@@ -1,0 +1,16 @@
+//MAPS//
+
+$textoResaltado: (
+    inicio: rgb(37, 33, 33),
+    medio: rgb(87, 87, 36),
+    final: rgb(95, 60, 60),
+);
+
+@each $frases, $color in textoResaltado {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+
+    }
+    
+}

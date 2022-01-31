@@ -1,6 +1,13 @@
 // variables //
+
 // las variables se importan siempre arriba de todo//
 @import "./variables/colores";
+//EXTEND//
+@import './variables/extend';
+//MIXIN//
+@import './variables/mixin';
+//MAPS//
+@import './variables/maps';
 // importando las fuentes de google font //
 @import "./variables/fuentes";
 

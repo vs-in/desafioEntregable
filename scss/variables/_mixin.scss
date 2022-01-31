@@ -1,0 +1,8 @@
+@mixin contenido {
+    background-color: $oscuro;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px;
+}

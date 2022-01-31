@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Josefin+Sans&family=Montserrat:ital,wght@0,100;0,300;1,200&family=Neonderthaw&family=Pacifico&family=Roboto:wght@300&family=Spartan:wght@200&display=swap");
+.contenido p {
+  background-color: rgba(162, 177, 169, 0.5);
+  color: #fcfcfc;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 60px;
+  border-radius: 200px;
+  position: relative;
+  bottom: 150px; }
+
+.textoResaltado {
+  font-weight: bold; }
+
 /* Encabezado */
 header {
   display: flex;
@@ -28,7 +40,7 @@ header {
   box-sizing: border-box; }
 
 .contenido {
-  background-color: #221c1c;
+  background-color: #1d2c1a;
   background-position: center;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -68,25 +80,12 @@ header {
     padding: 5px;
     background-image: rgba(162, 177, 169, 0.5); }
   .contenido .container-parrafo1 {
-    background-color: rgba(67, 77, 72, 0.5);
-    color: #fcfcfc;
-    font-family: "Spartan", "Roboto", sans-serif;
-    padding: 60px;
-    border-radius: 200px;
     position: relative;
     bottom: 150px; }
   .contenido .container-parrafo2 {
-    background-color: rgba(67, 77, 72, 0.5);
-    color: #fcfcfc;
-    font-family: "Spartan", "Roboto", sans-serif;
-    padding: 50px;
     border-radius: 350px;
     position: relative; }
   .contenido .container-parrafo3 {
-    background-color: rgba(67, 77, 72, 0.5);
-    color: #fcfcfc;
-    font-family: "Spartan", "Roboto", sans-serif;
-    padding: 50px;
     border-radius: 350px;
     position: relative;
     left: 50px;
